@@ -14,7 +14,40 @@
         <version>3.2.3</version>
     </parent>
 
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/ingestr-io/ingestr-cli/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>GitHub Actions</system>
+        <url>https://github.com/ingestr-io/ingestr-cli/actions</url>
+    </ciManagement>
+
+
+    <scm>
+        <url>https://github.com/ingestr-io/ingestr-cli</url>
+        <connection>scm:git:git@github.com:ingestr-io/ingestr-cli.git</connection>
+        <developerConnection>scm:git:https://github.com/ingestr-io/ingestr-cli.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+
+    <organization>
+        <name>Ingestr</name>
+        <url>https://ingestr.io/</url>
+    </organization>
+    <developers>
+        <developer>
+            <name>Victor Cetinic</name>
+            <url>https://github.com/vcetinick</url>
+        </developer>
+    </developers>
+
+
     <properties>
+        <project.scm.id>github</project.scm.id>
         <java.version>11</java.version>
         <jdk.version>11</jdk.version>
         <jackson.version>2.13.0</jackson.version>
@@ -95,7 +128,6 @@
             </resource>
         </resources>
 
-
         <plugins>
             <plugin>
                 <groupId>io.micronaut.build</groupId>
@@ -172,7 +204,6 @@
                     </execution>
                 </executions>
             </plugin>
-
         </plugins>
     </build>
 </project>

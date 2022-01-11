@@ -11,7 +11,7 @@ echo "Performing local install..."
 JAR_FILE=$(ls target/ingestr-cli*.jar | head)
 rm "${C_INGESTR_HOME}/ingestr.jar"
 
-echo "Copying ${JAR_FILE} to ${C_INGESTR_HOME}/ingesr.jar..."
+echo "Copying ${JAR_FILE} to ${C_INGESTR_HOME}/ingestr.jar..."
 
 cp "${JAR_FILE}" "${C_INGESTR_HOME}/ingestr.jar"
 cp "src/bin/ingestr" "${C_INGESTR_HOME}/ingestr"
