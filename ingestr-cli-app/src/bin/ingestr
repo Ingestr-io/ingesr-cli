@@ -1,0 +1,5 @@
+#!/bin/bash
+
+C_INGESTR_HOME="${HOME}/.ingestr"
+
+java -jar "${C_INGESTR_HOME}/ingestr.jar" "$@"
