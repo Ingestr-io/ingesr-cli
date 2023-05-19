@@ -10,8 +10,8 @@
     <description>${description}</description>
 
     <parent>
-        <groupId>io.ingestr</groupId>
-        <artifactId>ingestr-se-parent</artifactId>
+        <groupId>io.extractor</groupId>
+        <artifactId>extractor-se-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/>
     </parent>
@@ -20,8 +20,8 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>io.ingestr</groupId>
-                <artifactId>ingestr-maven-plugin</artifactId>
+                <groupId>io.extractor</groupId>
+                <artifactId>extractor-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>

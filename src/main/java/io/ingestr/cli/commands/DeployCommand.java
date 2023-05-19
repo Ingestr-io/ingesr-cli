@@ -3,12 +3,10 @@ package io.ingestr.cli.commands;
 import io.ingestr.client.LoaderArtifactClient;
 import io.ingestr.client.LoaderClient;
 import io.ingestr.client.models.UpdateArtifactRequest;
-import io.ingestr.models.LoaderDTO;
+import io.ingestr.server.models.LoaderDTO;
 import io.ingestr.cli.models.Pom;
 import jakarta.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.filefilter.IOFileFilter;
 import picocli.CommandLine;
 
 import java.io.BufferedInputStream;

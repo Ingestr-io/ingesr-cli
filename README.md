@@ -4,7 +4,7 @@ This is a self contained Java CLI to help bootstrap Loader development using the
 
 ## Documentation
 
-To read the full documentation about the Ingestr framework go to the [Documentation](https://ingestr.io/docs/latest) on
+To read the full documentation about the Ingestr framework go to the [Documentation](https://extractor.io/docs/latest) on
 the Ingestr.io website.
 
 ### Running integration tests
